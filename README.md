@@ -41,7 +41,7 @@
     3.用户信息格式，注意末尾的英文逗号："端口"："密码",  如 "8006": "123456",
 4."method" 为加密方式，可修改，默认也行
   
-   “ {
+    {
       "server":"0.0.0.0",
       "local_address":"127.0.0.1",
       "local_port":1080,
@@ -55,8 +55,7 @@
       "timeout":300,
       "method":"aes-256-gcm",
       "fast_open": false
-    } ”
-
+    }
 + 然后，在 /etc 目录下创建 shadowsocks.json 配置文件：
 
  > vi /etc/shadowsocks.json
